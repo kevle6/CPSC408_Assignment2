@@ -22,6 +22,7 @@ The main program interfaces with the provided DDL and DML and created DML statem
 ## Source Files
 
 * main.py
+* Assignment2_DML.sql
 
 ## References
 
