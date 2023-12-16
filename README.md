@@ -26,6 +26,7 @@ The main program interfaces with the provided DDL and DML and created DML statem
 ## References
 
 * Limit amount of chars: https://stackoverflow.com/questions/28465779/how-do-i-limit-the-amount-of-letters-in-a-string
+* Regex was used from CPSC 408 class notes
 
 ## Known Errors
 
