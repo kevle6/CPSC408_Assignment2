@@ -13,7 +13,7 @@ The main program interfaces with the provided DDL and DML and created DML statem
 
 ## Identifying Information
 
-* Name: Kevin le
+* Name: Kevin Le
 * Student ID: 2406054
 * Email: kevle@chapman.edu
 * Course: CPSC 408
@@ -30,7 +30,10 @@ The main program interfaces with the provided DDL and DML and created DML statem
 
 ## Known Errors
 
-* N/A
+* Putting a date number that does not make sense (ie. 2023-99-99) will cause an error during insertion.
+* Deleting records in Datagrip or Pycharm will cause inconsistent auto_increment values of primary int keys.
+* Users can only order a single item through the stored procedure.
+* Unknown behavior from Stored Procedure if a user tries to order an out-of-stock item. (negative quantities)
 
 ## Execution Instructions
 
