@@ -148,11 +148,6 @@ def add_new_order(conn):
         while not inputQuantity.isdigit():
             inputQuantity = input("Enter Quantity: ")
 
-        # params = (inputCustomerID, inputOrderDate, inputShipDate, inputShipAddress,
-        #           inputShipCity, inputShipPostalCode, inputShipCountry, inputProductID,
-        #           inputQuantity)
-        query = ("CALL AddNewOrder "
-                 )
         cursor.callproc('AddNewOrder', (inputCustomerID, inputOrderDate, inputShipDate, inputShipAddress,
                                         inputShipCity, inputShipPostalCode, inputShipCountry, inputProductID,
                                         inputQuantity)
